@@ -1,7 +1,7 @@
 language: ruby
 rvm:
   - 2.1.4
-script: chmod ugo+x .travis-phing.sh
+script: chmod a+x .travis-phing.sh
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
