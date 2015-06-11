@@ -37,6 +37,11 @@ paginate: 3
 show_related_posts: true
 animated: true
 
+# Social icons
+show_social_icons: true
+github_username: AvetisG
+twitter_username: AvetisG
+
 google_analytics: 
 disqus_shortname: avetisghukasyan
 
