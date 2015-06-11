@@ -1,0 +1,47 @@
+# Dependencies
+markdown: redcarpet
+highlighter: pygments
+
+# Permalinks
+permalink: /posts/:title
+timezone: America/New_York
+
+# Setup
+title: Avetis Ghukasyan
+description: 'My struggles, solutions and insights in the field of software development.'
+baseurl:     ''
+url:         'http://AvetisG.com'
+
+author:
+  name: 'Avetis Ghukasyan'
+  url: https://twitter.com/AvetisG
+  email: avetis.ghukasyan@outlook.com
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - bin
+
+gems:
+  # - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+
+sass:
+  sass_dir: _scss
+  compressed: true
+
+paginate: 3
+
+# Custom vars
+show_related_posts: true
+animated: true
+
+# Social icons
+show_social_icons: true
+github_username: AvetisG
+twitter_username: AvetisG
+
+google_analytics: 
+disqus_shortname: avetisghukasyan
+
