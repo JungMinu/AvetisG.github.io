@@ -9,7 +9,7 @@ So with that said I started using a procedure to learn new technologies (by tech
 
 I don't think this is something extremely novel, and I am pretty sure many of you might have even used it unconsciously at some point but what I did here is I formalized it by putting it in simple steps and thought about why it is so effective (at least for me and for a few other developers that I have talked to).
  
-## Step 1 - General research about new technology
+## General research about new technology
 
 I usually go ahead and read about the pros and cons of this new technology. I try to see what it is used for, what it can be used for, what are some of the advantages, disadvantages.
 
@@ -17,7 +17,7 @@ If it is a framework then I will look at a few examples of how it is used, but p
 
 If it is a tool and there is no code to learn then I just get the free-trial/full version and start playing around with it.
 
-## Step 2 - Solve a problem with new technology
+## Solve a problem with new technology
 
 This is pretty much where the first major part of learning begins.
 
@@ -39,9 +39,11 @@ This way it will stick with you and you will retain it over a long-period of tim
 
 If you just read about it in a book most likely you will forget about it the moment you finish the book.
 
-And this brings me to Step 3!
+And this brings me to the final step!
 
-## Step 3 - Fill in the gaps
+## Fill in the gaps
+
+This is the second major part of my learning process.
 
 After my general research and completion of my project I am now in a very receptive state where I have very specific problems that I have solutions for, some are still lingering in my mind and some things I am still confused about. But they key is that **all of my problems are specific**. 
 
