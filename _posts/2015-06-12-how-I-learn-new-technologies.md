@@ -45,11 +45,15 @@ And this brings me to the final step!
 
 This is the second major part of my learning process.
 
-After my general research and completion of my project I am now in a very receptive state where I have very specific problems that I have solutions for, some problems are still lingering in my mind and some things I am still confused about. But the key is that **all of my problems are specific**. 
+After my general research and completion of my project I am now in a very receptive state where I have very specific problems that I have solutions for, some problems are still lingering in my mind and some things I am still confused about. 
+
+But the key is that **all of my problems are specific**. 
 
 This is usually the time when I order a few books about the new technology and read them while being in this state of mind.
 
-I have noticed that I retain a lot more information, understand and fill in the gaps in a more efficient manner and also get an overall context of what the new technology is all about. This allows me to not only understand the technology on an intellectual level but internalize it to a level where it becomes another tool in my toolbox.
+I have noticed that I retain a lot more information, understand and fill in the gaps in a more efficient manner and also get an overall context of what the new technology is all about.
+
+This allows me to not only understand the technology on an intellectual level but internalize it to a level where it becomes another tool in my toolbox.
 
 Overtime as I am faced with more specific questions about it I add more and more to the "core knowledge" that I built through this procedure.
 
