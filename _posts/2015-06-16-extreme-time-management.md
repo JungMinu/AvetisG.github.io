@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Extreme Time Management & Skill Building"
+title: "Extreme Time Management"
 ---
 
 In my humble opinion, if you are starting your career as a software developer and planning on making it as your path of mastery then you need to put in hours into coding outside of your job.
