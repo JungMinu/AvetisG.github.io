@@ -45,7 +45,7 @@ This is my schedule in a nutshell. I do take time off at times when I feel like 
 
 Even if you love programming there are going to be times when you are going to be questioning yourself if it is the right thing to go with. 
 
-Love for the subject alone won't do so you have to combine it with dedication and consistency along with extreme time management in order to grow that love for programming along into a fully blossomed mastery of the craft.
+Love for the subject alone won't do so you have to combine it with dedication and consistency along with extreme time management in order to grow that love for programming into a fully blossomed mastery of your craft.
 
 I am nowhere near this but my daily actions are all directed towards this goal. I was fortunate enough to have people around me that have mastered their own crafts and it definitely helped me go after my own.
 
