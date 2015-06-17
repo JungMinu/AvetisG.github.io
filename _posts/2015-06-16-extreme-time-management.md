@@ -33,7 +33,7 @@ In order to show you a real example, which you can use or modify as you wish, I 
 
 * Once I get to work my mind is charged and ready to start solving problems - I am already in the [flow state](https://en.wikipedia.org/wiki/Flow_%28psychology%29 "flow state") and all I need to do is maintain it. The key here is not to get distracted. Even if you get distracted by meetings or anything else that is out of your control - just accept it and go with the flow because if you get mad that will actually put you out of your flow state. However, by accepting your distraction you get to maintain your flow state. Better yet if you decide to participate fully in whatever that distracted you from your original task you will increase your flow state even more.
 
-* After work I always go to the gym right after so that I don't have time for "let me take a little break before I go to the gym" excuse. 
+* After work I always go to the gym immediately so that I don't have time for "let me take a little break before I go to the gym" excuse. 
  
 > I keep myself moving - this accelerates my thinking and builds my momentum even further.
 
