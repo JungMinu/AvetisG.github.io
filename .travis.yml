@@ -1,7 +1,0 @@
-language: ruby
-rvm:
-  - 2.1.4
-script: chmod a+x ./bin/cibuild
-env:
-  global:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
