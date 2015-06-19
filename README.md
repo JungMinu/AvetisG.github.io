@@ -1,4 +1,4 @@
-# Personal Blog & Portfolio [![Alt text][2]][1]
+# Personal Blog & Portfolio [![Build Status][2]][1]
 
   [1]: https://travis-ci.org/AvetisG/AvetisG.github.io
   [2]: https://travis-ci.org/AvetisG/AvetisG.github.io.svg?branch=master
