@@ -59,7 +59,7 @@ I thought that if it goes all the way from 1 to 26 then we already have boundari
 
 Since in our case we are talking about the alphabet I thought of A being the highest, B being in the middle and C being in the very end.
 
-I then went ahead and did this calculation `A = 1, B = 2, C = 3` (the numbers being the amount of times they have occurred). Even though it says "no two letters have the same beauty" I just assumed that it meant two different letters instead of the same letter repeating. If it didn't work then I would simple invalidate my assumption and eliminate that as a possibility, so no harm no foul.
+I then went ahead and did this calculation `A = 1, B = 2, C = 3` (the numbers being the amount of times they have occurred). Even though it says "no two letters have the same beauty" I just assumed that it meant two different letters instead of the same letter repeating. If it didn't work then I would simply invalidate my assumption and eliminate that as a possibility, so no harm no foul.
 
 After that I did `(1*26) + (2*25) + (3*24) = 148` and this was not the output expected yet it was close.
 
@@ -67,7 +67,7 @@ Since I love trying different possibilities when I am lost I went ahead and did 
 
 I got the answer but still couldn't answer the question as to how to find the rest of the letters since there are so many unknowns.
 
-The thought at that point that came to my mind was as follows: I realized that instead of assigning the highest beauty value to the top most letter in the alphabet I should assign the beauty value to the letter with the **highest frequency** in a descending order.
+The thought at this point that came to my mind was as follows: I realized that instead of assigning the highest beauty value to the top most letter in the alphabet I should assign the beauty value to the letter with the **highest frequency** in a descending order.
 
 This is exactly what the first example demonstrated.
 
@@ -83,7 +83,9 @@ This was just one of those cases where I couldn't ask anybody around me and so t
 
 I took C# as a weapon of choice and started coding away.
 
-I started from the main method and wrote it all up as how I imagined it to be. Some functions still nonexistent, but the skeleton complete.
+I started from the main method and wrote it all up as how I imagined it to be. 
+
+Some functions still nonexistent, but the skeleton complete.
 
 ```C#
 static void Main(string[] args)
