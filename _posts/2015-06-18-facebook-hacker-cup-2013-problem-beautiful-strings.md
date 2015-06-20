@@ -230,7 +230,7 @@ namespace CodeEvalSolutions.BeautifulStrings
 
 You can also check it out at my GitHub repository: [Beautiful Strings Solution](https://github.com/AvetisG/CodeEval/blob/master/01%20-%20Easy/C%23/BeautifulStrings/BeautifulStringsSolution.cs).
 
-Now some here are the lessons I learned.
+Finally, here are the lessons I have learned along the way:
 
 > No matter how simple a problem is - **always give 100% of yourself to it** instead of assuming that you are too good to be engaged for it.
 
