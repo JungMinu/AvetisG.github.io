@@ -161,6 +161,19 @@ table {
   color: #333;
 }
 
+.post-footer {
+  @extend .italic;
+
+  margin-top: .75rem;
+  text-align: center;
+}
+
+.post-footer .avatar {
+  margin: 1rem 0;
+  width: 125px;
+  border-radius: 50%;
+}
+
 .pagination,
 .button {
   font-size: 1rem;
