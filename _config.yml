@@ -34,6 +34,7 @@ sass:
 paginate: 3
 
 # Custom vars
+show_post_footers: true
 show_related_posts: true
 animated: true
 
