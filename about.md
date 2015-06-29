@@ -16,7 +16,7 @@ While researching about this new field that was a combination of software develo
 
 After learning enough information about microISVs I was overwhelmed by a very strong desire to try and create my own product. At that time I was at my first job as a software developer right out of college and I started simultaneously working on my own product during any free time I had.
 
-After reading more books about marketing, sales, and new technologies that I needed to use for this product - the end results came to be [www.AvocadoPlugins.com](http://www.AvocadoPlugins.com) which exists to this day and is a marketplace for WordPress plugins.
+After reading more books about marketing, sales, and new technologies that I needed to use for this product - the end result came to be [www.AvocadoPlugins.com](http://www.AvocadoPlugins.com) which exists to this day and is a marketplace for WordPress plugins.
 
 It took me a year and a half of dedicated coding, focused learning and iterative understanding of new ideas in order to launch my product and start making passive income.
 
