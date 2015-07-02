@@ -13,7 +13,7 @@ Let me start it this way - if you are a professional software developer then som
 
 Everything changes starting from small-scale personal projects (open source or commercial) ending with large-scale, complex, enterprise systems, because requirements change, teams change, technologies change.
 
-And of course we should follow the [open/close principle](https://en.wikipedia.org/wiki/Open/closed_principle) as much as we can to battle change, however there are going to be things that we are going to need to change. This is why I explicitly mentioned that **some percentage** of the code will change depending on your specific situation - it is virtually impossible to know how much of the code will change on a case by case basis. 
+And of course we should follow the [SOLID](https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29) and [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) principles (and other best practices, these are just the two main ones that I use when developing) where necessary. However there are still going to be things that will change inevitably. This is why I explicitly mentioned that **some percentage** of the code will change depending on your specific situation - it is virtually impossible to know how much of the code will change on a case by case basis. 
 
 The bottom line is, however, that continuous maintenance and improvement of your code is necessary for it not to degrade overtime and become a [big ball of mud](https://en.wikipedia.org/wiki/Big_ball_of_mud).
 
