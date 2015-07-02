@@ -43,7 +43,9 @@ This is a tricky question because it totally depends on a specific situation wit
 
 > Don't innovate for optimization unless you have to
 
-Let me expand on what I mean by this. Usually, when solutions are not over optimized, they are pretty easy to understand (good readability), but the moment one tries to do fancy tricks code becomes more and more complex to digest. This is why I try to stick to this mantra of optimizing only to the limit I have to and not more. The limit is usually the quality of user experience (in your case it might be something else and you need to find out what that is in order to know how much to optimize your code).
+Let me expand on what I mean by this. Usually, when solutions are not over optimized, they are pretty easy to understand (good readability), but the moment one tries to do fancy tricks code becomes more and more complex to digest. 
+
+This is why I try to stick to this mantra and optimize it only to the limit I have to, not more. The limit is usually the quality of user experience (in your case it might be something else and you need to find out what that is in order to know how much to optimize your code).
 
 Here is an example if you know that for a certain problem you have to look through a list of n items in order to solve it then stick to that vision and go with that. You will have O(n) complexity. If this solution provides users with a great user experience then you have done your job in the optimization department.
 
