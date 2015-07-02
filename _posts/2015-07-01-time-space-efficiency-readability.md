@@ -47,7 +47,7 @@ Let me expand on what I mean by this. Usually, when solutions are not over optim
 
 This is why I try to stick to this mantra and optimize it only to the limit I have to, not more. The limit is usually the quality of user experience (in your case it might be something else and you need to find out what that is in order to know how much to optimize your code).
 
-Here is an example if you know that for a certain problem you have to look through a list of n items in order to solve it then stick to that vision and go with that. You will have O(n) complexity. If this solution provides users with a great user experience then you have done your job in the optimization department.
+Here is an example: if you know that for a certain problem you have to look through a list of n items in order to solve it then stick to that vision and go with that. You will have O(n) complexity. If this solution provides users with a great user experience then you have done your job in the optimization department.
 
 Now if your users are still complaining and yelling at you for the software working slow then here is when you have an excuse to start innovating a bit. Before innovating however first look through your current code and see if there is something else you are missing that is slowing it down. Innovating for optimization should be your last resort because it introduces complexity and complexity is not very readable.
 
