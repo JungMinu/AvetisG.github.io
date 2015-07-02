@@ -60,3 +60,9 @@ When we are trying to find innovative ways to optimize our code we are inevitabl
 This limit is an arbitrary mark and is different for everyone. Most times it is the users - either for a public API or software/web app/moblie app or others. If optimizing to the limit is not enough then we can start innovating for optimization after we make sure that there is nothing else that we can do.
 
 In this case when introducing **complexity out of necessity**, please make sure that you document everything well and follow the open/close principle.
+
+This will take a bit from code readability, but with enough documentation and good coding practices you can pull it off only when necessary.
+
+Even when code is a complex and difficult to read and understand yet has documentation along with it and an explanation of why it was introduced it creates less frustration with developers. It is a sign of the previous developer showing care and understanding towards the situation and makes the current developer more motivated to continue on.
+
+This doesn't mean that complexity should be added all the time just because a documentation and an explanation can take care of it because if the entire codebase is one big complex, black box - no matter how many comments or explanations one has it will still create frustration. So use them sparingly :)
