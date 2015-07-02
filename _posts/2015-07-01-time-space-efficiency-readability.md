@@ -59,7 +59,7 @@ When we are trying to find innovative ways to optimize our code we are inevitabl
 
 This limit is an arbitrary mark and is different for everyone. Most times it is the users - either for a public API or software/web app/moblie app or others. If optimizing to the limit is not enough then we can start innovating for optimization after we make sure that there is nothing else that we can do.
 
-In this case when introducing **complexity out of necessity**, please make sure that you document everything well and follow the open/close principle.
+In this case when introducing **complexity out of necessity**, please make sure that you document everything well and try to encapsulate complexity to decrease [software entropy](https://en.wikipedia.org/wiki/Software_entropy).
 
 This will take a bit from code readability, but with enough documentation and good coding practices you can pull it off only when necessary.
 
