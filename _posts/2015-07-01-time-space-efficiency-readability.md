@@ -15,7 +15,7 @@ Everything changes starting from small-scale personal projects (open source or c
 
 And of course we should follow the [SOLID](https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29) and [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) principles (and other best practices, these are just the two main ones that I use when developing) where necessary. However there are still going to be things that will change inevitably. This is why I explicitly mentioned that **some percentage** of the code will change depending on your specific situation - it is virtually impossible to know how much of the code will change on a case by case basis. 
 
-The bottom line is, however, that continuous maintenance and improvement of your code is necessary for it not to degrade overtime and become a [big ball of mud](https://en.wikipedia.org/wiki/Big_ball_of_mud).
+The bottom line is, however, that continuous maintenance and improvement of your code is necessary for it not to degrade overtime and turn into a [big ball of mud](https://en.wikipedia.org/wiki/Big_ball_of_mud).
 
 Some people may disagree with this and if that is the case I would love to hear your counter-arguments in the comment section.
 
