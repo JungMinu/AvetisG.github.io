@@ -26,7 +26,7 @@ I love researching a specific market and finding a need, I love iterating on sol
 
 I believe that even if every software developer doesn't want his/her own product/business her/she should at least try to go through this process ones. It teaches one so much more outside of software development such as customer services, marketing, sales and other skills that would make one a more valuable asset even while working within a company.
 
-My main goal for now is to keep mastering software development as a craft both through my own personal projects and through projects at work. My end goal is to fund my own startup.
+My main goal for now is to keep mastering software development as a craft both through my own personal projects, projects at work and finally through competitive programming. My end goal is to fund my own startup.
 
 Overall, I am thoroughly convinced that the best professionals, in any field, are the ones who first and foremost have fun with what they do on a daily basis - the ones who haven’t forgotten the childlike enthusiasm they once had for their craft.
 
