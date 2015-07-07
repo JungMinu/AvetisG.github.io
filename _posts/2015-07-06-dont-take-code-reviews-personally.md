@@ -35,6 +35,6 @@ Note that in both cases there is emotional pain to some degree, however the diff
 
 Someone, who just has passion with no interest in mastering the craft overtime generates a very nasty ego. This ego doesn't like to be challenged because it already thinks it knows everything. It is not fluid.
 
-An individual with a vision towards mastering the craft of software development always has a mind of an apprentice, always looking for ways to grow, always looking for ways to improve his or her skills.
+An individual with a vision towards mastery of the craft always has a mind of an apprentice, always looking for ways to grow, always looking for ways to improve his or her skills.
 
 At this point code review becomes just just another tool to sharpen up one's skills and continue the journey towards mastery.
