@@ -37,4 +37,4 @@ Someone, who just has passion with no interest in mastering the craft overtime g
 
 An individual with a vision towards mastery of the craft always has a mind of an apprentice, always looking for ways to grow, always looking for ways to improve his or her skills.
 
-At this point code review becomes just another tool to sharpen up one's skills and continue the journey towards mastery.
+At this point code review becomes yet another tool for sharpening up one's skills and continuing the journey towards  mastery of the craft.
