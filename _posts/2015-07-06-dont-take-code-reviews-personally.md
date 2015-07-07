@@ -7,7 +7,7 @@ As many of you might know Jeff Atwood's great post about [The Ten Commandments o
 
 I think the best way to start this post is to clarify why all of us are in this business called software development. 
 
-The answer that most would give will have **passion** at its root. Without passion it is not even worth perusing this career (or any for that matter), because it will drain the life out of you. The question remains however... is it WHY we are all in this and if so is it the right reason?
+The answer that most would give will have **passion** at its root. Without passion it is not even worth perusing this career (or any for that matter), because it will drain the life out of you. The question remains however... is it really WHY we are all in this and if so is it the right reason?
 
 Passion is what makes us stick around and refactor an awfully written code, it is passion that makes us stay until 6AM in the morning working on a problem if we have to, it is passion that makes us read books upon books and put in time and energy everyday to sharpen our skills, and it is the same passion that makes us combative and emotional when another person reviews and constructively criticizes our code...
 
