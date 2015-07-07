@@ -7,7 +7,7 @@ permalink: /posts/:title
 timezone: America/New_York
 
 # Setup
-site-title: AvetisG - Better Self, Better Software.
+site-title: AvetisG - Better Self. Better Software.
 title: Avetis Ghukasyan
 description: 'My struggles, solutions and insights in the field of software development.'
 baseurl:     ''
