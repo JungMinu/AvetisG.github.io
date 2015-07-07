@@ -3,7 +3,7 @@ layout: post
 title: "Don't Take Code Reviews Personally"
 ---
 
-As many of you might know Jeff Atwood's great post about [The Ten Commandments of Egoless Programming](blog.codinghorror.com/the-ten-commandments-of-egoless-programming) already touched upon the code review process. However I decided to write my own take on it and hopefully supplement the current description.
+As many of you might know Jeff Atwood's great post about [The Ten Commandments of Egoless Programming](http://blog.codinghorror.com/the-ten-commandments-of-egoless-programming) already touched upon the code review process. However I decided to write my own take on it and hopefully supplement the current description.
 
 I think the best way to start this post is to clarify why all of us are in this business called software development. 
 
