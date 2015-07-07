@@ -23,7 +23,7 @@ Why ARE we software developers? Is it only passion for building things and solvi
 
 > In my humble opinion the missing piece of the puzzle is **vision**. More specifically vision towards mastery of the craft.
 
-I frankly think that passion in any field is just to get one started, but without a vision for mastery one will either stagnate, become negative when criticized or simply not be able to make the jump from good to great.
+I frankly believe that passion in any field is just to get one started, but without a vision for mastery one will either stagnate, become negative when criticized or simply not be able to make the jump from good to great.
 
 This is such a simple paradigm shift, yet it is so powerful.
 
