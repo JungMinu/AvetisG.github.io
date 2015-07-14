@@ -49,7 +49,7 @@ Love for the subject alone won't do so you have to combine it with dedication an
 
 I am nowhere near this but my daily actions are all directed towards this goal. I was fortunate enough to have people around me that have mastered their own crafts and it definitely helped me go after my own.
 
-After you get used to doing this you will have two choice - either make it a lifestyle or treat it like a short-term challenge. This purely depends on your preferences and your goals.
+After you get used to doing this you will have two choices - either make it a lifestyle or treat it like a short-term challenge. This purely depends on your preferences and your goals.
 
 My personal suggestion would be to make this a lifestyle, because if you are trying to master this craft then extreme time managmenet is your best ally (which could also be used in any other area of your life).
 
