@@ -141,5 +141,9 @@ public class LRUCache<K, V>
 }
 ```
 
-The above implementation is for educational purposes only because if you would like to use an LRU cache like data structure then use [MemoryCache](https://msdn.microsoft.com/en-us/library/system.runtime.caching.memorycache%28v=vs.110%29.aspx).
+The above implementation is for educational purposes only because for now it is not thread-safe and does not accommodate for any scalability issues that might come up.
+
+However, this post is going to be a living document so to speak - meaning that as I am working on this implementation I will also be updating this post.
+
+If you would like to check out the full implementation and follow the process then [watch it on GitHub](https://github.com/AvetisG/LRUCache.NET).
 
