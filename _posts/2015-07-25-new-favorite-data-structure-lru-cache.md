@@ -55,7 +55,7 @@ public class Node<D, K>
 
 As you can see the Node takes in a data and also a value. The data is obviously going to be the data which the user will be caching, however the key is a specificity in our implementation. This can be done in many ways, but one of the ways to do it is to keep track of the key in the Node. But what are we trying to do? Great question.
 
-We are basically saving the key of the node so that we can perform a reverse lookup in O(1) time instead of using `FirstOrDefault()` which would take `O(n)` time. The key allows use to remove the eatery from our dictionary after we get rid of it in the tail of our linked list.
+We are basically saving the key of the node so that we can perform a reverse lookup in `O(1)` time instead of using `FirstOrDefault()` which would take `O(n)` time. The key allows use to remove the eatery from our dictionary after we get rid of it in the tail of our linked list.
 
 And now let's write out the actual implementation of the LRU cache.
 
