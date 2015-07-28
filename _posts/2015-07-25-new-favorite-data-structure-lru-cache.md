@@ -33,53 +33,78 @@ Let's go ahead and insert two more items `[5]` and `[6]`. You already know that 
 
 If we never did a lookup on our `[1]` then it would have been purged but since we did a lookup first and then started inserting the rest of our items we were able to keep it.
 
-Let's now try to implement this awesome data structure in C#.
+Let's now try to implement this awesome data structure in C#. We will be using a C# dictionaty data structure for `O(1)` lookups and a doubly linked list for `O(1)` insertion and deletion.
+
+Let's start with writing up the Node structure that we will be using to create a doubly linked list.
 
 ```C#
+public class Node<D, K>
+{
+    public D Data { get; private set; }
+    public K Key { get; private set; }
+    public Node<D, K> Previous { get; set; }
+    public Node<D, K> Next { get; set; }
+
+    public Node(D data, K key)
+    {
+        Data = data;
+        Key = key;
+    }
+}
+```
+
+As you can see the Node takes in a data and also a value. The data is obviously going to be the data which the user will be caching, however the key is a specificity in our implementation. This can be done in many ways, but one of the ways to do it is to keep track of the key in the Node. But what are we trying to do? Great question.
+
+We are basically saving the key of the node so that we can perform a reverse lookup in O(1) time instead of using `FirstOrDefault()` which would take `O(n)` time. The key allows use to remove the eatery from our dictionary after we get rid of it in the tail of our linked list.
+
+And now let's write out the actual implementation of the LRU cache.
+
+```C#
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
 public class LRUCache<K, V>
 {
     private readonly int _maxCapacity = 0;
-    private readonly Dictionary<K, Node<V>> _LRUCache;
-    private Node<V> head = null;
-    private Node<V> tail = null; 
+    private readonly Dictionary<K, Node<V, K>> _LRUCache;
+    private Node<V, K> _head = null;
+    private Node<V, K> _tail = null;
 
     public LRUCache(int argMaxCapacity)
     {
         _maxCapacity = argMaxCapacity;
-        _LRUCache = new Dictionary<K, Node<V>>();
+        _LRUCache = new Dictionary<K, Node<V, K>>();
     }
 
     public void Insert(K key, V value)
     {
         if (_LRUCache.ContainsKey(key))
         {
-            Node<V> foundItem = _LRUCache.FirstOrDefault(l => l.Key.Equals(key)).Value;
-            MakeMostRecentlyUsed(foundItem);
+            MakeMostRecentlyUsed(_LRUCache[key]);
         }
 
         if (_LRUCache.Count >= _maxCapacity) RemoveLeastRecentlyUsed();
 
-        Node<V> insertedNode = new Node<V>(value);
+        Node<V, K> insertedNode = new Node<V, K>(value, key);
 
-        if (head == null)
+        if (_head == null)
         {
-            head = insertedNode;
-            tail = head;
+            _head = insertedNode;
+            _tail = _head;
         }
         else MakeMostRecentlyUsed(insertedNode);
 
         _LRUCache.Add(key, insertedNode);
     }
 
-    public Node<V> GetItem(K key)
+    public Node<V, K> GetItem(K key)
     {
         if (!_LRUCache.ContainsKey(key)) return null;
-          
-        Node<V> foundItem = _LRUCache.FirstOrDefault(l => l.Key.Equals(key)).Value;
 
-        MakeMostRecentlyUsed(foundItem);
+        MakeMostRecentlyUsed(_LRUCache[key]);
 
-        return foundItem;
+        return _LRUCache[key];
     }
 
     public int Size()
@@ -89,7 +114,7 @@ public class LRUCache<K, V>
 
     public string CacheFeed()
     {
-        var headReference = head; 
+        var headReference = _head; 
         
         List<string> items = new List<string>();
 
@@ -104,38 +129,35 @@ public class LRUCache<K, V>
 
     private void RemoveLeastRecentlyUsed()
     {
-        var key = _LRUCache.FirstOrDefault(l => l.Value.Equals(tail)).Key;
-
-        _LRUCache.Remove(key);
-
-        tail.Previous.Next = null;
-        tail = tail.Previous;
+        _LRUCache.Remove(_tail.Key);
+        _tail.Previous.Next = null;
+        _tail = _tail.Previous;
     }
 
-    private void MakeMostRecentlyUsed(Node<V> foundItem)
+    private void MakeMostRecentlyUsed(Node<V, K> foundItem)
     {
         if (foundItem.Next == null && foundItem.Previous == null)
         {
-            foundItem.Next = head;
-            head.Previous = foundItem;
-            if (head.Next == null) tail = head;
-            head = foundItem;
+            foundItem.Next = _head;
+            _head.Previous = foundItem;
+            if (_head.Next == null) _tail = _head;
+            _head = foundItem;
         }
         else if (foundItem.Next == null && foundItem.Previous != null)
         {
             foundItem.Previous.Next = null;
-            tail = foundItem.Previous;
-            foundItem.Next = head;
-            head.Previous = foundItem;
-            head = foundItem;
+            _tail = foundItem.Previous;
+            foundItem.Next = _head;
+            _head.Previous = foundItem;
+            _head = foundItem;
         }
         else if (foundItem.Next != null && foundItem.Previous != null)
         {
             foundItem.Previous.Next = foundItem.Next;
             foundItem.Next.Previous = foundItem.Previous;
-            foundItem.Next = head;
-            head.Previous = foundItem;
-            head = foundItem;
+            foundItem.Next = _head;
+            _head.Previous = foundItem;
+            _head = foundItem;
         }
     }
 }
